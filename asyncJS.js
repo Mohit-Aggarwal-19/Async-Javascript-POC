@@ -79,9 +79,7 @@ asynGreet().then(value=>console.log(value)) // this will return `hello from asyn
     });
 
     console.log("pre promise")
-
     console.log(await promise);
-    
     console.log("post promise")
  }
 
